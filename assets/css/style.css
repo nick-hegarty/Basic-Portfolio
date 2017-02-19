@@ -1,0 +1,38 @@
+body{
+	color:black;
+}
+
+.header-border{
+	background:#e7e7e7;
+	padding: 20px 20px 20px 60px;
+	margin-bottom :20px;
+	color:#333;
+	border-bottom: 5px solid black;
+	width:100%;
+}
+
+.header-name{
+	background:#e7e7e7;
+	padding-left:20px;
+	border:10px;
+	margin-left:60px;
+	margin-right:0%;
+
+}
+
+.bio{
+	padding:20px;
+}
+
+.footer{
+	background: #e7e7e7;
+	width:100%;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 20px 20px;
+	text-align:center;
+	position: relative;
+	border-top: 5px solid black;
+	bottom:0;
+
+}
