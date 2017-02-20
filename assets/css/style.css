@@ -39,6 +39,8 @@ footer{
 
 body{
 	background-image: url(../images/dmitrii-bogdanov-93092.jpg)
+	max-width:960px;
+	background-size:960px;
 
 }
 
@@ -50,7 +52,7 @@ h2{
     float: right;
     margin-right: 20px;
     background-color: black;
-    width: 150px;
+    width: 270px;
     padding-top: 0px;
     margin-left:20px;
     margin-top:20px;
@@ -60,8 +62,9 @@ h2{
 	float:left;
 	margin-left: 10px;
 	background-color: green;
-	width:600px;
+	width:700px;
 	padding-top: 10px;
 	margin-top:25px;
+	max-width:650px;
 }
 
