@@ -1,48 +1,3 @@
-/*
-
-.wrapper{
-	background:green;
-	float:left;
-	padding-left:20px;
-	width:50%;
-	margin:0px 20px;
-}
-
-.contact-info{
-	float:right;
-	background:blue;
-	padding-left:20px;
-	width:40%;
-	margin-left:30px;
-
-}
-
-.footer{
-	background: #e7e7e7;
-	width:100%;
-	margin-left: auto;
-	margin-right: auto;
-	padding: 20px 20px;
-	text-align:center;
-	position: relative;
-	border-top: 5px solid black;
-	bottom:0;
-	clear:both;
-	background:#e7e7e7;
-	padding: 20px 20px 20px 60px;
-	color:#333;
-	width:100%;
-	margin:0 auto 0 auto
-	bottom:0;
-}
-
-.li-navigation {
-    list-style-type: none;
-    margin: 20;
-    padding: 20;
-    position:relative;
-
-}*/
 
  h1{
  	float: left;
@@ -51,7 +6,6 @@
  	padding:31.5px 20px;
  	background-color:blue;
  	margin-top:0;
- 	height: ;
  }
 nav{
 	float:right;
@@ -81,7 +35,33 @@ footer{
 	bottom:0;
 	border-top:solid;
 	border-top-color:black;
+}
+
+body{
+	background-image: url(../images/dmitrii-bogdanov-93092.jpg)
 
 }
 
+h2{
+	text-align:left;
+}
+
+.contact-info {
+    float: right;
+    margin-right: 20px;
+    background-color: black;
+    width: 150px;
+    padding-top: 0px;
+    margin-left:20px;
+    margin-top:20px;
+}
+
+.wrapper{
+	float:left;
+	margin-left: 10px;
+	background-color: green;
+	width:600px;
+	padding-top: 10px;
+	margin-top:25px;
+}
 
