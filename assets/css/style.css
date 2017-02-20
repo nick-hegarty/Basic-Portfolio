@@ -2,17 +2,18 @@
  h1{
  	float: left;
  	margin-left:60px;
- 	background-size: 100px;
  	padding:31.5px 20px;
- 	background-color:blue;
+ 	background:blue;
  	margin-top:0;
  }
 nav{
 	float:right;
+	margin-right:30px;
 }
 li{
 	display:inline;
 	clear:both;
+	font: comic;
 }
 header{
 	width:110%;
@@ -27,7 +28,7 @@ header{
 
 footer{
 	width:110%;
-	height:100px;
+	height:80px;
 	text-align:center;
 	background-color:red;
 	margin-left:-10px;
@@ -38,14 +39,17 @@ footer{
 }
 
 body{
-	background-image: url(../images/dmitrii-bogdanov-93092.jpg)
-	max-width:960px;
-	background-size:960px;
-
+	background-image: url(../images/dmitrii-bogdanov-93092.jpg);
+	background-size: cover;
 }
 
 h2{
 	text-align:left;
+}
+
+#content{
+	float: left;
+	width: 550px;
 }
 
 .contact-info {
@@ -56,15 +60,14 @@ h2{
     padding-top: 0px;
     margin-left:20px;
     margin-top:20px;
+
 }
 
 .wrapper{
-	float:left;
 	margin-left: 10px;
-	background-color: green;
-	width:700px;
+	width:960px;
 	padding-top: 10px;
-	margin-top:25px;
-	max-width:650px;
+	margin: 25px auto 0 auto;
+	overflow: auto;	
 }
 
