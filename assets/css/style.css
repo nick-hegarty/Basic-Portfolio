@@ -1,44 +1,20 @@
-body{
-	color:black;
-}
-
-.header-border{
-	background:#e7e7e7;
-	padding: 20px 20px 20px 60px;
-	margin-bottom :20px;
-	color:#333;
-	border-bottom: 5px solid black;
-	width:100%;
-}
-
-.header-name{
-	background:#e7e7e7;
-	padding-left:20px;
-	border:10px;
-	margin-left:60px;
-	margin-right:0%;
-	float:left;
-
-}
-
-.bio{
-	padding:20px;
-	clear:both;
-}
-
-
+/*
 
 .wrapper{
 	background:green;
 	float:left;
 	padding-left:20px;
-	width:70%;
+	width:50%;
+	margin:0px 20px;
 }
 
 .contact-info{
-	float:left;
+	float:right;
 	background:blue;
-	padding-right:20px;
+	padding-left:20px;
+	width:40%;
+	margin-left:30px;
+
 }
 
 .footer{
@@ -52,16 +28,60 @@ body{
 	border-top: 5px solid black;
 	bottom:0;
 	clear:both;
+	background:#e7e7e7;
+	padding: 20px 20px 20px 60px;
+	color:#333;
+	width:100%;
+	margin:0 auto 0 auto
+	bottom:0;
 }
 
-.navigation {
+.li-navigation {
     list-style-type: none;
     margin: 20;
     padding: 20;
-    display:inline;
     position:relative;
+
+}*/
+
+ h1{
+ 	float: left;
+ 	margin-left:60px;
+ 	background-size: 100px;
+ 	padding:31.5px 20px;
+ 	background-color:blue;
+ 	margin-top:0;
+ 	height: ;
+ }
+nav{
+	float:right;
+}
+li{
+	display:inline;
+	clear:both;
+}
+header{
+	width:110%;
+	height: 100px;
+	margin-top:-10px;
+	background-color:red;
+	border-bottom-style: solid;
+	border-bottom-color:black;
+	border-size:5px;
 
 }
 
+footer{
+	width:110%;
+	height:100px;
+	text-align:center;
+	background-color:red;
+	margin-left:-10px;
+	position:absolute;
+	bottom:0;
+	border-top:solid;
+	border-top-color:black;
+
+}
 
 
