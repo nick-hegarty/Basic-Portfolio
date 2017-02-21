@@ -31,7 +31,6 @@ footer{
 	height:80px;
 	text-align:center;
 	background-color:red;
-	margin-left:-10px;
 	position:absolute;
 	bottom:0;
 	border-top:solid;
@@ -41,6 +40,7 @@ footer{
 body{
 	background-image: url(../images/dmitrii-bogdanov-93092.jpg);
 	background-size: cover;
+	margin:0;
 }
 
 h2{
