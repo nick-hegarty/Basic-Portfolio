@@ -179,4 +179,24 @@ input{
 	width: 200px;
 }
 
+.row{
+	position:relative;
+}
+
+.portfolio-links li{
+	display: inline-block;
+	width: 200px;
+	height: 200px;
+}
+
+.portfolio-links li img{
+	width: 100%;
+	height: auto;
+	margin:20px;
+}
+
+.portfolio-footer{
+	position:relative;
+	height:60px;
+}
 
