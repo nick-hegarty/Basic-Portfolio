@@ -6,7 +6,6 @@
     margin-left: 60px;
     padding: 27px 20px;
     background: rgb(238, 235, 220);
-    margin-top: 0;
     text-align: center;
     font-size: 45px;
     letter-spacing:3px;
@@ -15,11 +14,39 @@ nav{
 	float:right;
 	margin-right:30px;
 	padding:40px 20px;
+	font-size:27px;
+	text-align:right;
+	text-decoration: none;
+	margin-top:5px;
+	letter-spacing:1px;
+
 }
+
+nav ul li{
+	display:inline;
+}
+
+nav ul li a{
+	display:inline;
+	text-decoration: none;
+	padding: 20px 0;
+	color:rgb(238,235,220);
+}
+
+nav ul li a:hover{
+	border-bottom: 2px solid rgb(238,235,220);
+}
+
+nav ul li a.active{
+	border-bottom:3px solid rgb(238,235,220);
+}
+
 li{
 	display:inline;
 	clear:both;
 	font: comic;
+	text-transform: none;
+	margin:5px;
 }
 header{
 	width:100%;
@@ -34,16 +61,18 @@ header{
 
 footer{
 	width:100%;
-	height:80px;
+	height:40px;
 	text-align:center;
 	background-color:rgb(74, 99, 118);
 	position:absolute;
 	bottom:0;
 	border-top:solid;
 	border-top-color:black;
-	padding-top:30px;
+	padding-top:10px;
 	margin-bottom:-10px;
 	height:10%;
+	font-size:12px;
+	letter-spacing:1px;
 }
 
 body{
@@ -70,8 +99,11 @@ p {
 
 #content{
 	float: left;
-	width: 550px;
+	width: 580px;
 	background-color: rgb(199,202,185);
+	line-height:22px;
+	height:75%;
+	padding:10px;
 }
 
 
@@ -84,12 +116,13 @@ p {
     margin-left:20px;
     margin-top:20px;
     text-align:center;
+    text-transform: capitalize;
 
 }
 
 .wrapper{
 	margin-left: 10px;
-	width:960px;
+	width:980px;
 	padding-top: 10px;
 	margin: 25px auto 0 auto;
 	overflow: auto;	
@@ -97,5 +130,34 @@ p {
 
 #bear-pic{
 	float:left;
+	margin-right:20px;
+	border: 1px solid;
+	padding:2px;
 }
 
+.navigation{
+	text-transform: none;
+}
+
+.contact-info ul li a{
+	display:block;
+	height:50px;
+	width:50px;
+	text-indent: -999999em;
+}
+
+.contact-info ul li{
+	display:inline-block;
+}
+
+a.email{
+	background-color:#4285f4;
+}
+
+a.github{
+	background-color:#6cc644;
+}
+
+a.linkedin{
+	background-color:#0077b5;
+}
