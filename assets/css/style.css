@@ -1,14 +1,20 @@
-
+*{
+	font:georgia;
+}
  h1{
- 	float: left;
- 	margin-left:60px;
- 	padding:31.5px 20px;
- 	background:blue;
- 	margin-top:0;
+    float: left;
+    margin-left: 60px;
+    padding: 27px 20px;
+    background: rgb(238, 235, 220);
+    margin-top: 0;
+    text-align: center;
+    font-size: 45px;
+    letter-spacing:3px;
  }
 nav{
 	float:right;
 	margin-right:30px;
+	padding:40px 20px;
 }
 li{
 	display:inline;
@@ -19,10 +25,10 @@ header{
 	width:100%;
 	height: 100px;
 	margin-top:-10px;
-	background-color:red;
-	border-bottom-style: solid;
+	background-color:rgb(74, 99, 118);
+	border-bottom: solid;
 	border-bottom-color:black;
-	border-size:5px;
+	border-bottom-size:10px;
 
 }
 
@@ -30,36 +36,54 @@ footer{
 	width:100%;
 	height:80px;
 	text-align:center;
-	background-color:red;
+	background-color:rgb(74, 99, 118);
 	position:absolute;
 	bottom:0;
 	border-top:solid;
 	border-top-color:black;
+	padding-top:30px;
+	margin-bottom:-10px;
+	height:10%;
 }
 
 body{
 	background-image: url(../images/dmitrii-bogdanov-93092.jpg);
 	background-size: cover;
-	margin:0;
 }
 
 h2{
 	text-align:left;
+	font-size: 32px;
+}
+
+h3{
+	height: 40px;
+    font-size: 22px;
+}
+
+p {
+    width: 100%; 
+    word-break: keep-all;
+    margin:0 0 10px;
+    text-indent:50px;
 }
 
 #content{
 	float: left;
 	width: 550px;
+	background-color: rgb(199,202,185);
 }
+
 
 .contact-info {
     float: right;
     margin-right: 20px;
-    background-color: black;
+    background-color:rgb(136,163,177);
     width: 270px;
     padding-top: 0;
     margin-left:20px;
     margin-top:20px;
+    text-align:center;
 
 }
 
@@ -69,5 +93,9 @@ h2{
 	padding-top: 10px;
 	margin: 25px auto 0 auto;
 	overflow: auto;	
+}
+
+#bear-pic{
+	float:left;
 }
 
